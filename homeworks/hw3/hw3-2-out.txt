@@ -1,0 +1,52 @@
+============
+Evan Putnam
+============
+============
+2 choice a
+============
+
+PUB_NAME                       Publisher Location                               
+------------------------------ --------------------                             
+Addison-Wesley                 Reading, MA                                      
+Benjamin/Cummings              Menlo Park, CA                                   
+Irwin                          Homewood, IL                                     
+MacMillan                      Riverside, NJ                                    
+McGraw-Hill                    New York, NY                                     
+Merrill                        Columbus, OH                                     
+PWS                            Boston, MA                                       
+Prentice Hall                  Eaglewood Clfs, NJ                               
+Science Research Associates    Menlo Park, CA                                   
+The MIT Press                  Cambridge, MA                                    
+
+10 rows selected.
+
+============
+2 choice b
+============
+
+TTL_NAME                                      Title Prices                      
+--------------------------------------------- ------------                      
+BASIC: A Structured Approach                        $26.50                      
+Case Book for Data Base Management                   $9.95                      
+Computer Science, An Overview                       $41.50                      
+Computers and Data Processing                       $30.75                      
+Data Base Management                                $32.50                      
+
+============
+2 choice c
+============
+
+PUB_NAME                          #Titles Avg Cost                              
+------------------------------ ---------- --------                              
+Science Research Associates             1   $28.95                              
+Irwin                                   1   $31.50                              
+Benjamin/Cummings                       5   $33.46                              
+Addison-Wesley                          4   $38.45                              
+PWS                                     2   $44.23                              
+Prentice Hall                           3   $44.98                              
+McGraw-Hill                             2   $51.98                              
+MacMillan                               1   $55.00                              
+The MIT Press                           1   $60.00                              
+
+9 rows selected.
+

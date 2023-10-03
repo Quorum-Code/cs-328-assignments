@@ -1,0 +1,146 @@
+
+Commit complete.
+
+===============
+Evan Putnam
+===============
+===============
+Problem 2 part a
+===============
+
+Function created.
+
+No errors.
+===============
+Problem 2 part b
+===============
+
+Function created.
+
+No errors.
+
+**********************
+TESTING pending_order_needed
+**********************
+
+Commit complete.
+
+
+1 row updated.
+
+
+1 row created.
+
+=============================================================
+test passes if returns TRUE (IS a pending order_needed for
+9780201122305)
+=============================================================
+
+PL/SQL procedure successfully completed.
+
+
+STATUS_STR                                                                      
+--------------------------------------------------------------------------------
+TRUE                                                                            
+
+=============================================================
+test passes if returns FALSE (order_needed row for
+9780805343021 is NOT pending)
+=============================================================
+
+PL/SQL procedure successfully completed.
+
+
+STATUS_STR                                                                      
+--------------------------------------------------------------------------------
+FALSE                                                                           
+
+=============================================================
+test passes if returns FALSE (9780131103627 is a title,
+but is not in order_needed table at all, so cannot
+be pending)
+=============================================================
+
+PL/SQL procedure successfully completed.
+
+
+STATUS_STR                                                                      
+--------------------------------------------------------------------------------
+FALSE                                                                           
+
+=============================================================
+test passes if returns FALSE (1111111111111 is NOT a title,
+so cannot be pending)
+=============================================================
+
+PL/SQL procedure successfully completed.
+
+
+STATUS_STR                                                                      
+--------------------------------------------------------------------------------
+FALSE                                                                           
+
+========
+does it work for titles that have MULTIPLE previously-filled
+orders needed?
+========
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+========
+9780805343021 now has 3 prior handled orders-needed,
+but none are pending
+pending_order_needed test passes IF returns FALSE:
+========
+
+PL/SQL procedure successfully completed.
+
+
+STATUS_STR                                                                      
+--------------------------------------------------------------------------------
+FALSE                                                                           
+
+
+1 row created.
+
+========
+9780805343021 NOW has a pending order_needed in addition to
+its 3 prior handled orders-needed
+pending_order_needed test passes IF now returns TRUE:
+========
+
+PL/SQL procedure successfully completed.
+
+
+STATUS_STR                                                                      
+--------------------------------------------------------------------------------
+TRUE                                                                            
+
+undoing temporary testing changes
+
+Rollback complete.
+
+
+Rollback complete.
+

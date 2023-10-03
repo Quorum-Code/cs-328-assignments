@@ -1,0 +1,58 @@
+/*
+bks.css
+Evan Putnam
+Last Modified: 3/10/2023
+*/
+
+body
+{
+   background-color: #110F0F;
+   color: #DDDDDD;
+}
+
+h1
+{
+   font-variant: small-caps;
+   width: 15em;
+   margin: 1em auto;
+   text-align: center;
+}
+
+img
+{
+   display:block;
+   margin: auto;
+}
+
+form
+{
+   width 80%;
+   display: grid;
+   grid-template-columns: 20% 60% 20%;
+   justify-items: center;
+}
+
+label
+{
+   font-family: monospace;
+}
+
+fieldset
+{
+   width: 60%;
+   margin: 1em 20%;
+}
+
+input
+{
+   padding: .1em;
+   width: 80%;
+}
+
+input[type=submit]
+{
+   width: 5em;
+   margin: .1em 45%;
+   grid-column-start: 2;
+   grid-column-end: 3;
+}

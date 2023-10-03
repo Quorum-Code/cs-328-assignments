@@ -1,0 +1,10 @@
+Evan Putnam
+CS 325
+Last Updated 12/8/2022
+
+Business Rules
+1. Events cannot occur on January 5th, National Bird Day.
+2. Events must occur on a date equal to or later than today.
+3. Birders must have an account older than 1 week to schedule events.
+4. Num_birds in sighting must be greater than 0.
+5. Birder_name must be unique.

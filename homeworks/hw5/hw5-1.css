@@ -1,0 +1,44 @@
+/*
+   hw5-1.css
+   Evan Putnam
+   Last modified: 3/24/2023
+*/
+
+body
+{
+   width: 94%
+   margin: .5em 3%;
+}
+
+form
+{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;  
+
+   width: 80%;
+   margin: .1em auto;
+
+   border: solid black .2em;
+
+   padding: .3em;
+}
+
+.info
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+.next-step
+{
+   display: flex;
+   justify-content: space-around;
+   border: dashed blue .2em;
+   padding: .3em;
+}
+
+textarea
+{
+   margin: .5em;
+}

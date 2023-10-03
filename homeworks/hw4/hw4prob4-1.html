@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- class HTML template: last modified 2023-02-22 -->
+
+<!--
+    by: Evan Putnam
+    last modified: 3/10/2023
+
+    you can run this using the URL:
+    http://nrs-projects.humboldt.edu/~ebp20/hw4/hw4prob4-1.html
+-->
+
+<head>
+    <title> CS 328 - Homework 4 Problem 4 </title>
+    <meta charset="utf-8" />
+
+    <link href="http://nrs-projects.humboldt.edu/~st10/styles/normalize.css"
+          type="text/css" rel="stylesheet" />
+    <link href="hw4-prob5.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <h1> CS 328 - Homework 4 Problem 4 </h1>
+    <h2> Evan Putnam </h2>
+    
+    <form action="https://www.google.com/" method="post" target="_blank">
+       <p> User Information </p>
+       <fieldset>
+          <label> Email </label>
+          <input type="text" name="email"/> <br />
+
+          <label> Favorite Number </label>
+          <input type="number" name="fav_num" /> <br />
+
+          <label for="biography"> Your Biography </label> <br />
+          <textarea id="biography" name="biography" rows="5" cols="50"></textarea> 
+          <br />
+
+          <label for="dob"> Date of Birth </label>
+          <input type="date" id="dob" name="dob" /> <br />
+       </fieldset>
+
+       <p> User Prefences </p>
+       <fieldset>
+          <p>What is your preferred browser? </p>
+          <div class="browser_box">
+             <input id="radio_chrome" type="radio" name="browser_pref" value="chrome" />
+             <label for="radio_chrome">Chrome</label><br />
+             <input id="radio_firefox" type="radio" name="browser_pref" value="firefox" />
+             <label for="radio_firefox">Firefox</label><br />
+             <input id="radio_safari" type="radio" name="browser_pref" value="safari" />
+             <label for="radio_safari">Safari</label><br />
+          </div>
+
+          <p> Favorite Animal </p>
+          <select name="fav_animal">
+             <option value="dog">Dog</option>
+             <option value="cat">Cat</option>
+             <option value="fish">Fish</option>
+             <option value="turtle">Turtle</option>
+             <option value="bird">Bird</option>
+          </select>
+       </fieldset>
+
+       <p> Other </p>
+       <fieldset>
+          <input id="box_sell" type="checkbox" checked="checked" name="cansell" />
+          <label for="box_sell"> Let us sell your info? </label> 
+          <br />
+
+          <input id="box_email" type="checkbox" checked="checked" name="canemail" />
+          <label for="box_email"> Receive unnecessary emails? </label> 
+          <br />
+
+          <input id="box_agree" type="checkbox" required="required" />
+          <label for="box_agree"> Do you agree to submit this info? </label>
+       </fieldset>
+
+       <input type="submit" />
+    </form>
+
+    <footer>
+    <hr />
+    <p>
+        Validate by pasting .xhtml copy's URL into<br />
+        <a href="https://html5.validator.nu/">
+            https://html5.validator.nu/
+        </a>
+    </p>
+    </footer>
+</body>
+</html>

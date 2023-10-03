@@ -1,0 +1,36 @@
+/*
+custom-start.css
+Evan Putnam
+Last Modified: 3/10/2023
+*/
+
+body
+{
+   background-color: #222233;
+   color: #FFFFAA;
+}
+
+img
+{
+   width: 80%;
+   margin: 0% 10%;
+}
+
+form
+{
+   display: grid;
+   width: 60%;
+   margin: .5em 20%;
+   justify-content: center;
+}
+
+h1
+{
+   text-align: center;
+}
+
+input[type=submit]
+{
+   width: 40%;
+   margin: .1em 30%;
+}

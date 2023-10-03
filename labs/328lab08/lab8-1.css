@@ -1,0 +1,29 @@
+/*=====
+lab8-1.css
+Created by: Nathan Peralta, Evan Putnam
+Last modified: 2023-Mar-09 15:26
+=====*/
+
+body
+{
+	margin: auto auto 0.5em 0.5em;
+}
+
+div
+{
+	font-size: 2em;
+	border: 0.05em solid black;
+	padding: .1em;
+}
+
+.wrapper
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.number
+{
+	background: yellow;
+}
+

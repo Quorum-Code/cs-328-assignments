@@ -1,0 +1,14 @@
+328hw4-color.txt
+Evan Putnam
+Last Modified: 3/10/2023
+
+==============
+Problem 2
+==============
+
+Foreground: #82EAB1
+Background: #000022
+
+Brightness Difference: 192.53
+Color Differenece: 507
+Contrast Ratio: 14.029

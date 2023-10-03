@@ -1,0 +1,63 @@
+/*
+hw4prob4-1.css
+Evan Putnam
+Last Modified: 3/10/2023
+*/
+
+body
+{
+   background-color: #000022;
+   color: #82EAB1;
+   margin: 1em;
+}
+
+h1
+{
+   font-variant: small-caps;
+}
+
+form
+{
+   margin-left: 5%;
+   margin-right: 5%;
+   width: auto;
+}
+
+fieldset
+{
+   margin: .5em;
+}
+
+input, textarea, select
+{
+   background-color: #333355;
+   color: #82EAB1;
+   margin: .2em;
+}
+
+input[type=number]
+{
+   color: orange;
+}
+
+input[type=radio]
+{
+   padding: 3em;
+}
+
+input[type=radio] + label
+{
+   font-weight: bold;
+}
+
+textarea
+{
+   font-family: cursive;
+}
+
+.browser_box
+{
+   border: .2em dashed blue;
+   width: 10em;
+   padding: 1em;
+}

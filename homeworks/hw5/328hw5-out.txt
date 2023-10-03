@@ -1,0 +1,63 @@
+===========
+Evan Putnam
+===========
+
+Function created.
+
+===========
+4 part b
+===========
+
+Commit complete.
+
+INSERT INTO order_stock (ord_num, pub_id, ord_date_placed)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.ORDER_STOCK_PK) violated 
+
+
+INSERT INTO order_line_item (ord_num, ord_line_num, ttl_isbn, ord_line_qty)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.ORDER_LINE_ITEM_PK) violated 
+
+
+INSERT INTO order_line_item (ord_num, ord_line_num, ttl_isbn, ord_line_qty)
+*
+ERROR at line 1:
+ORA-00001: unique constraint (EBP20.ORDER_LINE_ITEM_PK) violated 
+
+
+Additional rows added to ORDER_STOCK and ORDER_LINE_ITEM...
+===========
+4 part c
+===========
+
+Function created.
+
+No errors.
+=====================
+Testing is_on_order: (expecting TRUE)
+=====================
+
+PL/SQL procedure successfully completed.
+
+
+ON_ORDER_STATUS                                                                 
+--------------------------------                                                
+TRUE                                                                            
+
+=====================
+Testing is_on_order: (expecting FALSE)
+=====================
+
+PL/SQL procedure successfully completed.
+
+
+ON_ORDER_STATUS                                                                 
+--------------------------------                                                
+FALSE                                                                           
+
+
+Rollback complete.
+

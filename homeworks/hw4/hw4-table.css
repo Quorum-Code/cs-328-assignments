@@ -1,0 +1,24 @@
+/*
+hw4-table.css
+Evan Putnam
+Last Modified: 3/10/2023
+*/
+
+body
+{
+   background-color: #000022;
+   color: #82EAB1;
+   margin: 1em;
+}
+
+table
+{
+   border: .3em ridge gray;
+   margin: auto auto;
+   font-size: 1.5em;
+}
+
+th
+{
+   padding: .3em;
+}

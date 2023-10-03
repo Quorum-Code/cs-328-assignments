@@ -1,0 +1,30 @@
+/*
+   hw5-prob3.css
+   Evan Putnam
+   3/24/2023
+*/
+
+form
+{
+   display: grid;
+}
+
+.form_a
+{
+   display: grid;
+   grid-row-gap: .5em;
+   grid-template-columns: 15em auto;
+}
+
+.form_b
+{
+   display: grid;
+   grid-row-gap: .5em;
+   grid-template-columns: 2em auto;   
+}
+
+.submit
+{
+   padding: .5em;
+   text-align: center;
+}

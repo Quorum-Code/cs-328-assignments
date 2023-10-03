@@ -1,0 +1,65 @@
+Evan Putnam, Nathan Peralta, Sean Ross
+
+Table dropped.
+
+
+Table created.
+
+All presidents total salary expected: 5000
+5000                                                                            
+
+PL/SQL procedure successfully completed.
+
+All sales total salary expected: 5600
+5600                                                                            
+
+PL/SQL procedure successfully completed.
+
+Employees with salary greater than 1000 expected: 12
+
+PL/SQL procedure successfully completed.
+
+
+ NUM_EMPLS                                                                      
+----------                                                                      
+        12                                                                      
+
+Employees with salary greater than 2000 expected: 6
+
+PL/SQL procedure successfully completed.
+
+
+ NUM_EMPLS                                                                      
+----------                                                                      
+         6                                                                      
+
+Testing trigger
+
+Commit complete.
+
+Updating dept_name 'Sales' to 'Consulting'
+
+1 row updated.
+
+Updating dept_name 'Accounting' to 'HR'
+
+1 row updated.
+
+
+DEP DEPT_NAME       DEPT_LOC                                                    
+--- --------------- ---------------                                             
+100 HR              New York                                                    
+200 Research        Dallas                                                      
+300 Consulting      Chicago                                                     
+400 Operations      Boston                                                      
+500 Management      New York                                                    
+
+
+DATE_CHAN OLD_DEPT        NEW_DEPT                                              
+--------- --------------- ---------------                                       
+26-JAN-23 Sales           Consulting                                            
+26-JAN-23 Accounting      HR                                                    
+
+
+Rollback complete.
+

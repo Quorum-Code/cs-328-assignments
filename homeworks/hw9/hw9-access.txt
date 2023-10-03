@@ -1,0 +1,14 @@
+Evan Putnam
+CS 328
+HW #9
+5/4/2023
+
+"Designing for Accessibility is not that hard"
+- Good color contrast, using the WCAG tool this becomes one of the easiest things that can be done improve a website.
+- Alternative text for non-text content, another easy one to do that greatly increases the accessibility of a website.
+- Supporting keyboard navigation, this I think makes a website truly accessible but might be the most difficult to implement.
+
+"Teach Access Initiave's Short Tutorial on Accessibility"
+- Keyboard navigation, this shortly explains how to properly implement this style of navigation.
+- Labels, use of different kinds of labels that can make fields and other content more accessable.
+- Menus, setting aria attributes and good keyboard interaction.

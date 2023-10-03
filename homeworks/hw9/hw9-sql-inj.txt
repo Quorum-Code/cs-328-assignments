@@ -1,0 +1,14 @@
+Evan Putnam
+CS 328
+HW #9
+5/4/2023
+
+SQL Injection Articles
+- Sanitizing input, the particular point I found important was that it is easier to "remove everything but known good data", almost like
+  a whitelist for characters.
+
+- Using stored procedures for database access, I think it is likely more robust to write a few good procedures or functions to access data
+  rather than creating unique queries for each attempt to access a database.
+
+- Stop using input as a literal string, instead of using string concatenation use functions that are already available, similar to the point 
+  before use something that is robust and already tested rather than attempt to make it yourself poorly.

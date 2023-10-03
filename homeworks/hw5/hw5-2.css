@@ -1,0 +1,46 @@
+/*
+   hw5-2.css
+   Evan Putnam
+   Last Modified: 3/24/2023
+*/
+
+form
+{
+   border: solid red .1em;
+   padding: .3em;
+}
+
+#overall_form > fieldset
+{
+   margin: .5em;	
+}
+
+#flavor_sect
+{
+   display: grid;   
+   grid-template-columns: 2em auto;
+}
+
+#transport_sect
+{
+   display: grid;
+   grid-template-columns: 2em auto;
+}
+
+#basic_sect
+{
+   display: grid;
+   grid-template-columns: 25% 75%;
+   grid-row-gap: .5em;
+}
+
+label[for=state_entry]
+{
+   grid-column-start: 1;
+   color: red;
+}
+
+#submit
+{
+   text-align: center;
+}

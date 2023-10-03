@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- class HTML template: last modified 2023-02-13 -->
+
+<!--
+    by: Evan Putnam, Cory Whitehead, Nathan Peralta
+    last modified: 2/16/2023
+
+    you can run this using the URL: http://nrs-projects.humboldt.edu/~ebp20/lab5.html
+
+-->
+
+<head>
+    <title> Lab5 </title>
+    <meta charset="utf-8" />
+
+</head>
+
+
+<body>
+    <h1>Lab5</h1>
+
+    <h2>Example form</h2>
+
+    <form action="https://google.com" target="_blank" method="get">
+
+        <fieldset>
+            <legend>Favorite Gaming System</legend>
+            <label>
+                 <input type="radio" name="gaming_systems" checked="checked" value="pc">
+                 PC </label> <br />
+            <label>
+                 <input type="radio" name="gaming_systems" value="xbox">
+                 Xbox </label> <br />
+            <label>
+                 <input type="radio" name="gaming_systems" value="playstation">
+                 Playstation </label> <br />
+        </fieldset>
+
+	<fieldset>
+		<legend>Gaming Systems Owned</legend>
+		<label>
+			<input type="checkbox" name="pc" checked="checked" />
+			PC </label>
+		<label>
+			<input type="checkbox" name="xbox" />
+			Xbox </label>
+		<label>
+			<input type="checkbox" name="playstation" />
+			Playstation </label>
+		<label>
+			<input type="checkbox" name="switch" />
+			Switch </label>
+	</fieldset>
+
+	<label> Secret Favorite Game:
+		<input type="password" name="secret_game">
+	</label>
+
+	<fieldset>
+		<legend>Favorite Peripheral</legend>
+		<label>What is your favorite peripheral?
+			<select name="favorite_peripheral">
+				<option value="mouse" selected="selected">Mouse</option>
+				<option value="keyboard">Keyboard</option>
+				<option value="dkbongos">DK Bongos</option>
+				<option value="wiimote">Wiimote</option>
+				<option value="ddrpad">DDR Dance Pad</option>
+			</select>
+		</label>
+	</fieldset>
+
+	<fieldset>
+	    <legend>Explanation</legend>
+	    <label>Tell us why
+ 		<textarea name="explanation" rows="2" cols="30">Write here.</textarea>
+	    </label>
+	</fieldset>
+
+        <input type="submit" name="subButton" value="something" />
+
+    </form>
+
+    <footer>
+    <hr />
+    <p>
+        Validate by pasting .xhtml copy's URL into<br />
+        <a href="https://html5.validator.nu/">
+            https://html5.validator.nu/
+        </a>
+    </p>
+    </footer>
+</body>
+</html>

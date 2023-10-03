@@ -1,0 +1,33 @@
+/*
+    by: Sean Ross and Evan Putnam
+    last modified: 2/23/23
+    */
+
+p
+{
+    color: darkred;
+    background-color: slateblue;
+}
+
+ul,ol 
+{
+    font-size: x-large;
+    background-color: burlywood;
+}
+
+.bold
+{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#coupon
+{
+    border: thick solid salmon;
+}
+
+ul li
+{
+    height: 15px;
+    color: thistle;
+}

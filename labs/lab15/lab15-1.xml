@@ -1,0 +1,18 @@
+<!-- Sean Ross & Evan Putnam CS328 Lab 15 4/5/2023 -->
+<car>
+<color_table>
+	<color1>Red</color1>
+	<color2>Blue</color2>
+	<color3>Green</color3>
+</color_table>
+
+<make country="korea">Honda</make>
+
+<model> Model 
+	<model1>Civic</model1>
+</model>
+
+<year></year>
+
+
+</car>
